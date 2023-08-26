@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react'
 import './App.css'
-import { FaTumblr, FaTwitter } from "react-icons/fa";
+import {  FaTwitter } from "react-icons/fa";
 
 import quotesData from './assets/quotes.json'
 
