@@ -1,0 +1,57 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quotes-container{
+
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.author{
+  align-self: flex-end;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+gap: 20px;
+width: 30vw;
+  
+  
+  padding: 20px;
+  background-color: white !important;
+ 
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width: 28vw;
+}
+.quote-button>button{
+  width: 100px;
+  height: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  border: none !important;
+}
+.social-media-links{
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 5px 1px 5px;
+
+ 
+}
