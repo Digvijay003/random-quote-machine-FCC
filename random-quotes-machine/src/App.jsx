@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react'
 import './App.css'
-import {  FaTwitter } from "react-icons/fa";
+
 
 import quotesData from './assets/quotes.json'
 
@@ -52,7 +52,7 @@ function App() {
         className='social-media-links'
         id='tweet-quote'
         href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${quotes?.quote}`}
-        target='_blank'><FaTwitter size='20'/></a>
+        target='_blank'> Share on Twitter</a>
         {/* <a style={{backgroundColor:randomColor,color:'white'}}
         className='social-media-links'
         href=''
