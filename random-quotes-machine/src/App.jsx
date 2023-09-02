@@ -4,6 +4,7 @@ import './App.css'
 
 
 import quotesData from './assets/quotes.json'
+import { FaTwitter } from "react-icons/fa";
 
 function App() {
   const [quotes,setQuotes]=useState()
@@ -52,12 +53,13 @@ function App() {
         className='social-media-links'
         id='tweet-quote'
         href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${quotes?.quote}`}
-        target='_blank'> Share on Twitter</a>
+        target='_blank'><FaTwitter/></a>
         {/* <a style={{backgroundColor:randomColor,color:'white'}}
         className='social-media-links'
         href=''
         id='tweet-quote'
         target='_blank'><FaTumblr size='20'/></a> */}
+       
 
       </div>
       <div className='quote-button'>
